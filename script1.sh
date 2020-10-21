@@ -1,6 +1,12 @@
 #!/bin/bash
 
+# Check our system
 
-echo "Script numero 1"
+echo "Memory: "
+free -h
+echo "Disk Usage: "
+du -h
+echo "Uptime: "
+Uptime 
 
 exit
