@@ -4,7 +4,7 @@ set -e
 
 showtime() {
 	echo "Showing time"
-	TIME ="$(date)"
+	TIME="$(date)"
 	echo $TIME 
 }
 
